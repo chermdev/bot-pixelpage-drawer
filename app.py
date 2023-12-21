@@ -55,7 +55,7 @@ if __name__ == "__main__":
                bg_color=Color.white))
     draw(image('img/coin.png',
                bg_color=Color.white))
+    draw(image('img/flower.png'))
+    animate_adios_rgb()
     draw(image('img/charlyysh.png'))
     draw(image('img/logo.png'))
-    animate_adios_rgb()
-    draw(image('img/flower.png'))
