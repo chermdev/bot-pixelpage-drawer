@@ -1,5 +1,6 @@
 # Python script to draw in pixelpage.deno.dev
 <div style="text-align: center;">
+<img style="max-height: 400px;align-items:center" src="public/examples.png" />
 <img style="max-height: 400px;align-items:center" src="public/pixelpage_flower.png" /></div>
 
 draw.py script sends requests to paint pixels in [pixelpage.deno.dev](https://pixelpage.deno.dev)
