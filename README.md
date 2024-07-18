@@ -1,10 +1,40 @@
 # Python script to draw in pixelpage.deno.dev
 <div style="text-align: center;">
-<img style="max-height: 400px;align-items:center" src="public/examples.png" />
-<img style="max-height: 400px;align-items:center" src="public/pixelpage_flower.png" /></div>
+<img style="height:400px;align-items:center" src="public/examples.png" />
+<img style="height:400px;align-items:center" src="public/pixelpage_flower.png" /></div>
 
 draw.py script sends requests to paint pixels in [pixelpage.deno.dev](https://pixelpage.deno.dev)
 
+### How to run
+
+#### Mac / Linux
+
+1. Install virtualenv
+   
+```bash
+python3 -m pip install virtualenv
+```
+
+2. Activate environment and run app.py
+   
+```bash
+source venv/bin/activate
+python3 app.py
+```
+
+#### Windows
+1. Install virtualenv
+   
+```bash
+python -m pip install virtualenv
+```
+
+2. Activate environment and run app.py
+
+```bash
+venv/Scripts/activate
+python app.py
+```
 
 ## How to draw
 
@@ -44,37 +74,6 @@ First we need to import the colors supported by the pixelpage.
 2. Set 16x16 and enable the checkmark if you already imported the image to resize it.
 <br>
 <img style="height:400px;" src="public/pixilart_canvas_resize.png"/>
-
-### How to run
-
-#### Mac / Linux
-
-1. Install virtualenv
-   
-```bash
-python3 -m pip install virtualenv
-```
-
-2. Activate environment and run app.py
-   
-```bash
-source venv/bin/activate
-python3 app.py
-```
-
-#### Windows
-1. Install virtualenv
-   
-```bash
-python -m pip install virtualenv
-```
-
-2. Activate environment and run app.py
-
-```bash
-venv/Scripts/activate
-python app.py
-```
 
 ### Import image
 In this example we will use the 
