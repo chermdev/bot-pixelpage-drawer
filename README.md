@@ -45,6 +45,37 @@ First we need to import the colors supported by the pixelpage.
 <br>
 <img style="height:400px;" src="public/pixilart_canvas_resize.png"/>
 
+### How to run
+
+#### Mac / Linux
+
+1. Install virtualenv
+   
+```bash
+python3 -m pip install virtualenv
+```
+
+2. Activate environment and run app.py
+   
+```bash
+source venv/bin/activate
+python3 app.py
+```
+
+#### Windows
+1. Install virtualenv
+   
+```bash
+python -m pip install virtualenv
+```
+
+2. Activate environment and run app.py
+
+```bash
+venv/Scripts/activate
+python app.py
+```
+
 ### Import image
 In this example we will use the 
 <br>
